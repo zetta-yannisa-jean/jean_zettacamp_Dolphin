@@ -1,0 +1,46 @@
+body {
+  box-sizing: border-box;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.margin-0 {
+  margin: 0px;
+}
+
+.bg-bisque {
+  background-color: bisque;
+}
+
+h1 {
+  font-size: 3vw;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+img {
+  width: 15vw;
+}
+
+.row-sec {
+  margin: 6px 0;
+  width: 30%;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+footer>p {
+  font-size: 1.5rem;
+}
