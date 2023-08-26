@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Add Item</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="margin-0">
+  <header class="text-center padding-10 bg-darkseagreen">
+    <h1 class="margin-0 bg-darkseagreen">Shopshop</h1>
+  </header>
+
+  <nav class="text-center padding-10 bg-coral">
+    <a class="nav hyperlink" href="index.html" target="_blank">Home</a>
+    <a class="nav hyperlink" href="shopping-list.html">Shopping List</a>
+  </nav>
+
+  <main>
+    <section class="table-sec">
+      <table>
+        <tr>
+          <td><label for="brand">Brand</label></td>
+          <td colspan="2"><input type="text" id="brand" placeholder="Xiaomi, Redmi, Samsung" class="box-width"></td>
+        </tr>
+
+        <tr>
+          <td><label for="type">Type</label></td>
+          <td colspan="2"><input type="text" id="type" placeholder="Samsung Galaxy" class="box-width"></td>
+        </tr>
+
+        <tr>
+          <td>Class</td>
+          <td colspan="2">
+            <input type="radio" name="class" id="flagship">
+            <label for="flagship">Flagship</label>
+            <input type="radio" name="class" id="mid-range">
+            <label for="mid-range">Mid-range</label>
+            <input type="radio" name="class" id="entry-level">
+            <label for="entry-level">Entry Level</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Price</td>
+          <td colspan="2"><input type="number" min="1" class="box-width" placeholder="2 juta tuliskan: '2000000'""></td>
+        </tr>
+
+        <tr>
+          <td>Specification</td>
+          <td colspan=" 2">
+            <input type="checkbox" id="camera"><label for="camera">Camera</label>
+            <input type="checkbox" id="touch"><label for="touch screen">Touch Screen</label>
+            <input type="checkbox" id="flip"><label for="flip">Flip</label>
+            <input type="checkbox" id="fold"><label for="fold">Fold</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="file">Image</label></td>
+          <td colspan="2"><input type="file" id="file"></td>
+        </tr>
+
+        <tr>
+          <td><label for="description">Description</label></td>
+          <td colspan="2"><textarea placeholder="Describe the items" id="description" class="box-width"
+              style="resize: none; height: 100px;"></textarea></td>
+        </tr>
+
+        <tr>
+          <td class="td-button text-center" colspan="3">
+            <a href="add-item.html"><button class="nav hyperlink">Submit</button></a>
+          </td>
+        </tr>
+
+      </table>
+    </section>
+
+    <section style="width: 75%; margin: auto;">
+      <h3>RECENTLY ADDED</h3>
+    </section>
+
+    <section class="container">
+      <section class="item-sec">
+        <section class="phone-img sec-center">
+          <img src="assets/img/xiaomi1.webp">
+        </section>
+        <section>
+          <p>Redmi 12C hadir dengan layar besar berukuran 6.71 inci yang membuat kamu lebih nyaman dalam menjalankan
+            berbagai tugas, seperti membuka sosial media, menonton film, dan lain sebagainya.</p>
+        </section>
+      </section>
+
+      <section class="item-sec">
+        <section class="phone-img sec-center">
+          <img src="assets/img/narzo1.webp">
+        </section>
+        <section>
+          <p>Realme Narzo 50A Prime mempunyai konfigurasi memori yang cukup menarik, yaitu RAM 4GB ditambah memori
+            internal 64GB dan RAM 4GB yang penyimpanannya 128GB. RAM 4GB ini menjamin untuk kelancaran multitasking
+            serta loading game dan file aplikasi.</p>
+        </section>
+      </section>
+
+      <section class="item-sec">
+        <section class="phone-img sec-center">
+          <img src="assets/img/infinix1.webp">
+        </section>
+        <section>
+          <p>Infinix Hot 12 Play NFC hadir dengan chipset Unisoc T610 yang cukup bertenaga, apalagi Infinix memberikan
+            RAM 4GB dan internal memori 64GB serta fitur penambah RAM 3GB. Kamu tidak perlu khawatir saat membuka
+            beberapa aplikasi bersamaan.</p>
+        </section>
+      </section>
+    </section>
+  </main>
+
+  <footer class="bg-darkseagreen padding-10">
+    <span class="bg-darkseagreen">&copy;Yannisa Jean Andhyni</span>
+    <span class="bg-darkseagreen">
+      <a class=" nav hyperlink" href="about-me.html" target="_blank">About Me</a>
+      <a class="nav hyperlink" href="contact-me.html" target="_blank">Contact Me</a>
+    </span>
+
+  </footer>
+</body>
+
+</html>

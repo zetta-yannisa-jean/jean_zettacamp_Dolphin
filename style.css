@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: antiquewhite;
+  color: darkgreen;
+}
+
+.bg-darkseagreen {
+  background-color: darkseagreen;
+}
+
+.bg-coral {
+  background-color: coral;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+header {
+  background-color: darksalmon;
+  position: sticky;
+  top: 0;
+}
+
+main {
+  margin-bottom: 60px;
+}
+
+.nav,
+button {
+  background-color: darkseagreen;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.hyperlink:hover {
+  color: coral;
+}
+
+.add-item-sec {
+  display: flex;
+  justify-content: end;
+  width: 75%;
+  margin: 10px auto
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 75%;
+}
+
+.item-sec {
+  margin: 10px;
+  width: 30%;
+  padding: 20px;
+  border: 2px solid coral;
+  border-radius: 30px;
+  box-shadow: 2px 5px 4px coral;
+}
+
+img {
+  height: 100px;
+}
+
+.sec-center {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+}
+
+/* table styling */
+.table-sec {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.box-width {
+  border: 3px solid darkgreen;
+  outline: none;
+}
+
+.phone {
+  width: 230px;
+}
+
+.box-width {
+  width: 280px;
+}
+
+.td,
+button {
+  text-align: center;
+}
+
+tr {
+  border-radius: 30px;
+}
+
+tr,
+td {
+  padding: 15px 10px;
+}
+
+table,
+tr,
+td,
+label,
+input,
+textarea {
+  background-color: darkseagreen;
+  border-radius: 15px;
+}
+
+table {
+  margin: 20px;
+  border: 2px solid coral;
+  box-shadow: 2px 5px 4px coral;
+  border-radius: 20px;
+}
