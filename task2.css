@@ -1,0 +1,41 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: brown;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+}
+
+.each-card-sec {
+  width: 20%;
+  height: 700px;
+  border: 5px solid brown;
+  margin: 10px;
+  padding: 16px;
+  background-color: lightgoldenrodyellow;
+  border-radius: 25px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: center;
+}
+
+.card-img {
+  height: 100px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: x-large;
+}
+
+.td-superpowers {
+  vertical-align: top;
+}

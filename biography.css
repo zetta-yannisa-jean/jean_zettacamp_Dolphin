@@ -1,0 +1,36 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+  margin: auto;
+}
+
+img {
+  width: 170px;
+  border-radius: 15px;
+  margin: 15px 15px 0px 0px;
+}
+
+section {
+  font-size: larger;
+}
+
+span {
+  color: brown;
+}
+
+.span-first {
+  font-size: xx-large;
+}
+
+.span-sec {
+  font-size: larger;
+}
