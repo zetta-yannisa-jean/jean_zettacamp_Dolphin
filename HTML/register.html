@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Register</title>
+  <style>
+    * {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .box-width,
+    .phone,
+    .phone-code {
+      border: none;
+      outline: none;
+    }
+
+    .phone {
+      width: 230px;
+    }
+
+    .box-width {
+      width: 280px;
+    }
+
+    .td button {
+      text-align: center;
+    }
+
+    main,
+    footer {
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+    }
+
+    tr td {
+      padding: 15px 10px;
+    }
+
+    table {
+      background-color: bisque;
+      border-radius: 30px;
+    }
+
+    button {
+      font-size: large;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>J Music</h1>
+    <hr>
+  </header>
+
+  <main>
+    <h2>Welcome, Register Your Account!</h2>
+    <form action="profile.html" target="_blank">
+      <table>
+        <tr>
+          <td><label for="username">Username</label></td>
+          <td colspan="2"><input type="text" id="username" placeholder="@example" class="box-width"></td>
+        </tr>
+
+        <tr>
+          <td><label for="email">E-mail</label></td>
+          <td colspan="2"><input type="email" id="email" placeholder="example@email.com" class="box-width"></td>
+        </tr>
+
+        <tr>
+          <td>Premium Type</td>
+          <td colspan="2">
+            <input type="radio" name="premium" id="free">
+            <label for="free">Free</label>
+            <input type="radio" name="premium" id="personal">
+            <label for="personal">Personal</label>
+            <input type="radio" name="premium" id="duo">
+            <label for="duo">Duo</label>
+            <input type="radio" name="premium" id="family">
+            <label for="family">Family</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Phone Number</td>
+          <td>
+            <select class="phone-code">
+              <option>+62</option>
+              <option>+61</option>
+              <option>+63</option>
+              <option>+64</option>
+            </select>
+          </td>
+          <td>
+            <input type="number" placeholder="123***" class="phone">
+          </td>
+        </tr>
+
+        <tr>
+          <td>Age</td>
+          <td colspan="2"><input type="number" min="1" class="box-width"></td>
+        </tr>
+
+        <tr>
+          <td>Preffered Genre</td>
+          <td colspan="2">
+            <input type="checkbox" id="rock"><label for="rock">Rock</label>
+            <input type="checkbox" id="rnb"><label for="rnb">RnB</label>
+            <input type="checkbox" id="pop"><label for="pop">Pop</label>
+            <input type="checkbox" id="blues"><label for="blues">Blues</label>
+            <input type="checkbox" id="jazz"><label for="jazz">Jazz</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="td-button" colspan="3">
+            <button>Submit</button>
+          </td>
+        </tr>
+
+      </table>
+    </form>
+  </main>
+  <br>
+
+  <footer>
+    <span>&copy; J Music 2023</span>
+  </footer>
+</body>
+
+</html>
