@@ -1,0 +1,53 @@
+.margin-0 {
+  margin: 0px;
+  ;
+}
+
+.bg-bisque {
+  background-color: bisque;
+}
+
+.img-h1 {
+  width: 30px;
+  vertical-align: top;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px;
+  margin: 0px;
+}
+
+main {
+  width: 75%;
+  margin: auto;
+
+}
+
+.sec-1 {
+  display: flex;
+  margin-bottom: 1rem
+}
+
+.row-sec {
+  margin: auto;
+  width: 30%;
+  height: 300px;
+  box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
+
+.row-sec:hover {
+  color: red;
+}
+
+img {
+  width: 50%;
+}
+
+footer>p {
+  text-align: center;
+  padding: 10px;
+}

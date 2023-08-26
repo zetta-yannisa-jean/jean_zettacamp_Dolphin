@@ -1,0 +1,51 @@
+* {
+  background-color: white !important;
+}
+
+.margin-0 {
+  margin: 0px;
+  ;
+}
+
+.bg-bisque {
+  background-color: bisque;
+}
+
+header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+.sec-1 {
+  display: flex;
+  margin-bottom: 1rem
+}
+
+.row-sec {
+  margin: auto;
+  width: 30%;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
+
+img {
+  width: 50%;
+}
+
+footer>p {
+  text-align: center;
+  padding: 10px;
+}

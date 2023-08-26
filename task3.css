@@ -1,0 +1,49 @@
+.margin-0 {
+  margin: 0px;
+}
+
+.bg-bisque {
+  background-color: bisque;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+h1 {
+  text-align: center;
+  ;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+li {
+  padding: 10px;
+  margin: 2px;
+  border: 2px solid;
+}
+
+li:nth-child(3) {
+  visibility: hidden;
+}
+
+.sec-1 {
+  height: 500px;
+  border: 3px solid;
+  margin: 30px;
+  overflow: auto;
+}
+
+section:not(.sec-1) {
+  background-color: burlywood;
+}
