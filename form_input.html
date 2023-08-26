@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Form Input User</title>
+  <style>
+    .box-width,
+    .phone,
+    .phone-code {
+      border-left: none;
+      border-right: none;
+      border-top: none;
+      border-bottom: none;
+      outline: none;
+    }
+
+    .box-width {
+      width: 280px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 style="text-align: center;">Form Input Data</h1>
+  <hr>
+  <p style="font-size: large;"><b>Please fill this form with your user information:</b></p>
+  <form>
+    <table border="1" cellspacing="0">
+      <tr>
+        <td><label for="firstname">First Name</label></td>
+        <td colspan="2"><input type="text" id="firstname" class="box-width"></td>
+      </tr>
+
+      <tr>
+        <td><label for="lastname">Last Name</label></td>
+        <td colspan="2"><input type="text" id="lastname" class="box-width"></td>
+      </tr>
+
+      <tr>
+        <td><label for="deskripsi_diri">Biography</label></td>
+        <td colspan="2"><textarea placeholder="Describe yourself..." id="deskripsi_diri" class="box-width"
+            style="resize: none; height: 100px;"></textarea></td>
+      </tr>
+
+      <tr>
+        <td>Gender</td>
+        <td colspan="2">
+          <input type="radio" name="gender" id="male">
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female">
+          <label for=female">Female</label>
+          <input type="radio" name="gender" id="rather">
+          <label for=rather">Rather not to say</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="email">E-mail</label></td>
+        <td colspan="2"><input type="email" id="email" placeholder="example@email.com" class="box-width"></td>
+      </tr>
+
+      <tr>
+        <td>Telephone</td>
+        <td>
+          <select class="phone-code">
+            <option>+62</option>
+            <option>+61</option>
+            <option>+63</option>
+            <option>+64</option>
+          </select>
+        </td>
+        <td>
+          <input style="width: 230px;" type="text" placeholder="123***" class="phone">
+        </td>
+
+
+      </tr>
+
+      <tr>
+        <td>Age</td>
+        <td colspan="2"><input type="number" min="1" class="box-width"></td>
+      </tr>
+
+      <tr>
+        <td rowspan="4">Social Media</td>
+        <td colspan="2">Fill your sosial media as a link</td>
+      </tr>
+
+      <tr>
+        <td colspan="2"><input type="url" placeholder="Link social media 1" class="box-width"></td>
+      </tr>
+
+      <tr>
+        <td colspan="2"><input type="url" placeholder="Link social media 2" class="box-width"></td>
+      </tr>
+
+      <tr>
+        <td colspan="2"><input type="url" placeholder="Link social media 3" class="box-width"></td>
+      </tr>
+
+      <tr>
+        <td>Hobbies</td>
+        <td colspan="2">
+          <input type="checkbox" id="reading"><label for="reading">Reading</label>
+          <input type="checkbox" id="writing"><label for="writing">Writing</label>
+          <input type="checkbox" id="coding"><label for="coding">Coding</label>
+          <input type="checkbox" id="others"><label for="others">Others</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td style="text-align: center;" colspan="3"><input type="submit" value="Submit"></td>
+      </tr>
+
+    </table>
+  </form>
+</body>
+
+</html>
