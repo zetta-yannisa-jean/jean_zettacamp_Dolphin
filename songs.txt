@@ -1,0 +1,62 @@
+[
+  {
+    "title": "If I Aint Got You",
+    "artist": "Alicia Keys",
+    "genre": "R&B",
+    "duration": 2
+  },
+  {
+    "title": "Snooze",
+    "artist": "SZA",
+    "genre": "R&B",
+    "duration": 11
+  },
+  {
+    "title": "Kiss Me More",
+    "artist": "Doja Cat",
+    "genre": "R&B",
+    "duration": 3
+  },
+  {
+    "title": "Rules",
+    "artist": "Doja Cat",
+    "genre": "Hip-hop",
+    "duration": 7
+  },
+  {
+    "title": "WAP",
+    "artist": "Cardi B",
+    "genre": "Hip-hop",
+    "duration": 8
+  },
+  {
+    "title": "Please Me",
+    "artist": "Bruno Mars",
+    "genre": "Hip-hop",
+    "duration": 5
+  },
+  {
+    "title": "When I Was Your Man",
+    "artist": "Bruno Mars",
+    "genre": "Pop",
+    "duration": 10
+  },
+  {
+    "title": "Almost Is Never Enough",
+    "artist": "Ariana Grande",
+    "genre": "Pop",
+    "duration": 7
+  },
+  {
+    "title": "7 rings",
+    "artist": "Ariana Grande",
+    "genre": "Trap",
+    "duration": 6
+  },
+  {
+    "title": "Old Town Road",
+    "artist": "Lil Nas",
+    "genre": "Trap",
+    "duration": 9
+  }
+]
