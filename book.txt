@@ -1,0 +1,20 @@
+[
+  {
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "price": 400000,
+    "stock": 10
+  },
+  {
+    "title": "Catching Fire",
+    "author": "Suzanne Collins",
+    "price": 500000,
+    "stock": 15
+  },
+  {
+    "title": "Mockingjay",
+    "author": "Suzanne Collins",
+    "price": 600000,
+    "stock": 8
+  }
+]
